@@ -1,0 +1,176 @@
+@media(max-width:450px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    
+    
+    
+    
+    header{
+        
+        padding: 10px 20px;
+        
+    }
+    
+    .logo{
+        filter: invert(1);
+    }
+    
+    
+    
+    nav a{
+        color:white;
+    }
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+        
+
+    
+    
+    
+    
+    
+    #about article{ 
+        
+        padding: 50 30px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    #about article  img{
+        width: 70%;
+        
+    }
+    
+    #about article  div{
+        width: 100%;
+        
+    }
+    
+    article div p{
+        
+        text-align: justify;
+    }
+    
+    article div a{
+        width: fit-content;
+        font-size: 20px;
+        padding: 10px 25px;
+        border: 1px solid black;
+        font-weight: 200;
+        color:black;
+        transition: 0.5s;
+    }
+    
+    article div a:hover{
+        background-color: black;
+        color:white;
+    }
+
+    
+    #astro h2{
+        font-size: 50px;
+        margin-top: 80px;
+        font-weight: 100;
+    }
+    
+    #astro article{
+        padding: 50px;
+        
+    }
+    
+    #astro article img{
+        width: 100px;
+        height: 100px;
+        
+    }
+    
+    
+    
+    
+    #contact article{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 40px;
+    }
+    
+    
+    #contact article div{
+        width: 100%;
+       
+    }
+    #contact article div p{
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #contact article form input:focus,
+    textarea:focus{
+        border-color: darkorange;
+    }
+    
+    
+    
+    #contact article form{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 50px;
+        gap: 20px;
+        background-color: whitesmoke;
+    }
+    
+    #contact article form button{
+        width: 100%;
+        padding: 15px 20px;
+        background-color: darkorange;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        transition: 1s;
+        border: none;
+        border-radius: 5px;
+        
+    }
+    #contact article form button:hover {
+        background-color: black;
+    }
+    
+    footer{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+    }
+    
+    footer p{
+        font-size: 11px;
+    
+    }
+    
+    
+    
+    
+    
+}
